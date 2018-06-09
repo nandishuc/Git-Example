@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e( "onCreate: ", "aa");
         Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+
+
     }
 }
