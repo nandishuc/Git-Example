@@ -3,6 +3,7 @@ package com.nandishuc.git;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.e("LOG","");
+
+        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+
     }
 }
